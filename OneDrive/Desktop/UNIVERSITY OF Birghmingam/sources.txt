@@ -1,0 +1,21 @@
+https://www.cps.gov.uk/publication/cps-case-outcomes-principal-offence
+
+
+https://www.cps.gov.uk/publication/case-outcomes-principal-offence-category
+
+
+
+Problem Solution Strategy Statement
+
+In this project, we aim to analyze the number of successful and unsuccessful convictions within the dataset, focusing on various types of offenses over different quarters from 2015 to 2018. Our approach involves several key steps:
+
+Exploratory Data Analysis (EDA): We begin by exploring each variable individually to understand its distribution, trends, and basic statistics. This helps us identify any patterns, anomalies, or missing values that need addressing.
+
+Bivariate and Multivariate Analysis: We then explore the relationships and correlations between all variables together. By examining how different variables interact, we can uncover significant relationships and dependencies that may influence our predictions.
+
+Feature Engineering and Selection: Based on the insights from our exploratory analyses, we create a target label for one specific offense type. This label will be determined by whether the number of successful convictions for this offense is greater than the previous period's successful convictions. We will then select and engineer features that correlate well with this target label, ensuring they have strong predictive power for our machine learning model.
+
+Machine Learning Prediction: With our selected features and engineered target label, we train machine learning models to predict the likelihood of successful convictions for the specific offense. Our classification task involves labeling each row based on whether the target for that row meets the defined criteria, allowing us to predict trends and outcomes in criminal convictions.
+
+By following this structured approach, we aim to derive meaningful insights from the data and build robust predictive models for successful offense convictions.
+
